@@ -6,7 +6,6 @@ const refs = {
   form: document.querySelector('.feedback-form'),
   input: document.querySelector('input[name="email"]'),
   textarea: document.querySelector('textarea[name="message"]'),
-  submit: document.querySelector('button[type="submit"]'),
 };
 
 refs.form.addEventListener('input', debounce(handleInput, 500));

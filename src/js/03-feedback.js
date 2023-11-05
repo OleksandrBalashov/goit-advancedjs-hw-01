@@ -34,6 +34,7 @@ function handleSubmit(event) {
   event.preventDefault();
 
   console.log(data);
+
   localStorage.removeItem(KEY_STORAGE, JSON);
   refs.form.reset();
 }

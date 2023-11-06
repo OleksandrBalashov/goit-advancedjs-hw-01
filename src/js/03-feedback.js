@@ -39,4 +39,5 @@ function handleSubmit(event) {
   console.log(data);
   localStorage.removeItem(KEY_STORAGE, JSON);
   refs.form.reset();
+  refs.submit.disabled = true;
 }
